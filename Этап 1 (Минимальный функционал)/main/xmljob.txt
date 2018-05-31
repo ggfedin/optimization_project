@@ -1,0 +1,17 @@
+<task>
+<exampleName>queen</exampleName>
+<category>milp</category>
+<solver></solver>
+<inputMethod>LP</inputMethod>
+<LP><![CDATA[
+
+]]></LP>
+
+<comment>
+This is the example queen.lp in CPLEX-LP format from the GLPK distribution
+
+</comment>
+
+<email></email>
+
+</task>
