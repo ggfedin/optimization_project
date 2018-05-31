@@ -91,7 +91,12 @@ NEOS_Query MixedIntegerLinearProgram::send(const QString& solver,
     QString number = "empty", password = "empty";
     Client NEOS;
     QFile ftask(file);
-    QString task = ftask.readAll();
+    QTextStream intask(&ftask);
+    if (!ftask.open(QIODevice::ReadOnly | QIODevice::Text)) {
+           qDebug() << "Doesn't work\n";
+           return last_query = {solver, number, password};;
+    }
+    QString task = intask.readAll();
     NEOS.SubmitJob(email, solver, task);
     QFile finfo("../main/xmljob.txt");
     QTextStream in(&finfo);
