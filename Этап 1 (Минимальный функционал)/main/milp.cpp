@@ -93,10 +93,10 @@ NEOS_Query MixedIntegerLinearProgram::send(const QString& solver,
     QFile ftask(file);
     QString task = ftask.readAll();
     NEOS.SubmitJob(email, solver, task);
-    QFile finfo("../test/xmljob.txt");
+    QFile finfo("../main/xmljob.txt");
     QTextStream in(&finfo);
     if (!finfo.open(QIODevice::ReadOnly | QIODevice::Text)) {
-           qDebug() << "Don't\n";
+           qDebug() << "Doesn't work\n";
            return last_query = {solver, number, password};;
     }
     number = in.readLine();
