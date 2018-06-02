@@ -86,7 +86,7 @@ static void GetSolverTemplate()
 	}
 	else if (result.getType() == XmlRpcValue::TypeString) {
 			std::string buf = result.GetStdString();
-			std::cout << buf << "\n";
+			std::cout << buf << "aaaaa\n";
 	}
 }
 
@@ -149,8 +149,10 @@ int main(int argc, char* argv[])
 	//JobsRunning();
 	//SolversAvailableInCategory();
 	//SubmitJob();
-	//GetSolverTemplate();
+	GetSolverTemplate();
 	//GetStatus();
+	int a;
+	std::cin >> a;
 	return 0;
 }
 

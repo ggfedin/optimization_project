@@ -1,3 +1,30 @@
-﻿  NEOSClient.cpp
-NEOSClient.obj : warning LNK4075: эх єўшЄ√трхЄё  "/EDITANDCONTINUE" шч-чр ёяхЎшЇшърЎшш "/SAFESEH"
-  TimXmlRpc.vcxproj -> C:\xmlrpc\TimXml\Debug\TimXmlRpc.exe
+﻿  TimXmlRpc.cpp
+c:\program files (x86)\windows kits\8.1\include\um\combaseapi.h(229): error C2760: syntax error: unexpected token 'identifier', expected 'type specifier'
+c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.h(231): error C2440: 'return': cannot convert from 'std::string' to 'std::string'
+  c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.h(231): note: A non-const reference may only be bound to an lvalue
+c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1470): error C2440: '=': cannot convert from 'const char [21]' to 'char *'
+  c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1470): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1471): error C2440: '=': cannot convert from 'const char [19]' to 'char *'
+  c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1471): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1473): error C2440: '=': cannot convert from 'const char [18]' to 'char *'
+  c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1473): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1474): error C2440: '=': cannot convert from 'const char [15]' to 'char *'
+  c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1474): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1475): error C2440: '=': cannot convert from 'const char [10]' to 'char *'
+  c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1475): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1476): error C2440: '=': cannot convert from 'const char [13]' to 'char *'
+  c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1476): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1506): error C2664: 'void (void *,char *)': cannot convert argument 2 from 'const char [13]' to 'char *'
+  c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1506): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1550): error C2664: 'void (void *,char *)': cannot convert argument 2 from 'const char [13]' to 'char *'
+  c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1550): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1682): error C2664: 'void assert_failed(int,char *,char *)': cannot convert argument 2 from 'const char [109]' to 'char *'
+  c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1682): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1697): error C2440: 'initializing': cannot convert from 'XmlRpcValue' to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1697): note: Ambiguous user-defined-conversion
+c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1747): error C2664: 'void assert_failed(int,char *,char *)': cannot convert argument 2 from 'const char [109]' to 'char *'
+  c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.cpp(1747): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+  NEOSClient.cpp
+c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.h(231): error C2440: 'return': cannot convert from 'std::string' to 'std::string'
+  c:\users\геннадий\documents\github\optimization_project\этап 1 (минимальный функционал)\timxml\timxmlrpc.h(231): note: A non-const reference may only be bound to an lvalue
+  Generating Code...
